@@ -1,12 +1,12 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import { HolaMundoScreen } from './src/screens/HolaMundoScreen';
+import { ContadorScreen } from './src/screens/ContadorScreen';
 
 const App = () => {
   return (
-    <View>
-        <Text>Hola mundo</Text>
-    </View>
-  )
-}
+  //  <HolaMundoScreen />
+   <ContadorScreen />
+  );
+};
 
-export default App
+export default App;
